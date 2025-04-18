@@ -1,0 +1,33 @@
+{
+  "name": "foody",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "start": "node app.js hbs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "core-util-is": "^1.0.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.2.1",
+    "express-session": "^1.17.3",
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "loadsh": "^0.0.4",
+    "mongoose": "^6.5.3",
+    "nodemailer": "^6.9.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
